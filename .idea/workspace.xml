@@ -11,8 +11,44 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fbb3ea5-e721-4f59-8c67-d9baf204f941" name="Default Changelist" comment="" />
+    <list default="true" id="8fbb3ea5-e721-4f59-8c67-d9baf204f941" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/viewPager/ViewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/CafeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/CafeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/FoodFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/FoodFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/InfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/InfoFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/MarketFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/MarketFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/recyclerView/RecyclerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/RecyclerClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/RecyclerService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cafe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cafe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_food.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_food.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +79,9 @@
         <option value="Kotlin Interface" />
         <option value="resourceFile" />
         <option value="Kotlin Object" />
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -68,6 +104,14 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.guji_.recyclerView" />
+      <recent name="com.example.guji_.retroFit" />
+      <recent name="com.example.guji_.mainActivity" />
+      <recent name="com.example.guji_.Retrofit" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -144,6 +188,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" width="1792" height="1120" key="#PSD" timestamp="1605885356688">
       <screen x="0" y="25" width="1792" height="1035" />
@@ -159,11 +214,15 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="78" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605765042000" />
-    <state x="634" y="312" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605839840322">
+    <state x="634" y="312" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605887163477">
       <screen x="0" y="25" width="1792" height="1035" />
     </state>
     <state x="634" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605789305798" />
-    <state x="634" y="312" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605839840322" />
+    <state x="634" y="312" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605887163477" />
+    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1605887202937">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605887202937" />
     <state x="99" y="125" width="1592" height="835" key="AVDManager" timestamp="1605830454941">
       <screen x="0" y="25" width="1792" height="1035" />
     </state>
