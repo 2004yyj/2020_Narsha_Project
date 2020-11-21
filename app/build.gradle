@@ -14,16 +14,12 @@ android {
 
     defaultConfig {
         applicationId "com.example.guji_"
-        minSdkVersion 27
+        minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    dataBinding {
-        enabled = true
     }
 
     buildTypes {
@@ -39,10 +35,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
-
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
