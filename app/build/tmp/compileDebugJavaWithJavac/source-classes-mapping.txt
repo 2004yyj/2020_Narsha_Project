@@ -1,16 +1,2 @@
-com/example/guji_/BuildConfig.java
- com.example.guji_.BuildConfig
-com/example/guji_/BR.java
- com.example.guji_.BR
-com/example/guji_/DataBindingTriggerClass.java
- com.example.guji_.DataBindingTriggerClass
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-com/example/guji_/DataBinderMapperImpl.java
- com.example.guji_.DataBinderMapperImpl
- com.example.guji_.DataBinderMapperImpl$InnerBrLookup
- com.example.guji_.DataBinderMapperImpl$InnerLayoutIdLookup
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+com/example/guji/BuildConfig.java
+ com.example.guji.BuildConfig
