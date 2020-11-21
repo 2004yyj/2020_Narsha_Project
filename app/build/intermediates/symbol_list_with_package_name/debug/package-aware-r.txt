@@ -1581,9 +1581,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable recycler_box
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font nanum_square_round
+font nanum_square_round_b
+font nanum_square_round_eb
+font nanum_square_round_light
+font nanum_square_round_regular
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1652,6 +1658,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id alertTitle
 id aligned
 id all
@@ -1675,6 +1682,7 @@ id bounce
 id buttonPanel
 id cache_measures
 id cafe
+id cafe_recycler_View
 id cancel_button
 id category
 id center
@@ -1748,7 +1756,6 @@ id fixed
 id flip
 id floating
 id food
-id food_recycler_View
 id forever
 id fragment_frame
 id ghost_view
@@ -1770,6 +1777,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image_view
 id info
 id invisible
 id italic
@@ -1787,6 +1795,7 @@ id listMode
 id list_item
 id main_linear
 id market
+id mart_recycler_View
 id masked
 id message
 id middle
@@ -1852,6 +1861,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id rest_recycler_View
 id reverseSawtooth
 id right
 id right_icon
@@ -2045,9 +2055,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_cafe
-layout fragment_food
 layout fragment_info
-layout fragment_market
+layout fragment_mart
+layout fragment_rest
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2189,7 +2199,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string placeimage
 string search_menu_title
+string sharp
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -2884,6 +2896,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style nanum_square_b
+style nanum_square_regular
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

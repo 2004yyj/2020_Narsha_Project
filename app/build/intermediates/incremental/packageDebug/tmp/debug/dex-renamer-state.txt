@@ -1,4 +1,4 @@
-#Sat Nov 21 21:38:02 KST 2020
+#Sun Nov 22 00:51:43 KST 2020
 base.0=/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

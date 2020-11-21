@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_food.xml.flat",
-        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_food.xml"
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/drawable_recycler_box.xml.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/drawable/recycler_box.xml"
     },
     {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -40,24 +40,32 @@
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_market.xml.flat",
-        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_market.xml"
-    },
-    {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/drawable_ic_baseline_info_24.xml.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/drawable/ic_baseline_info_24.xml"
-    },
-    {
-        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/font_nanum_square_round_light.ttf.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/font/nanum_square_round_light.ttf"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/font_nanum_square_round_b.ttf.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/font/nanum_square_round_b.ttf"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/font_nanum_square_round_regular.ttf.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/font/nanum_square_round_regular.ttf"
     },
     {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
@@ -76,6 +84,14 @@
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/font_nanum_square_round_eb.ttf.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/font/nanum_square_round_eb.ttf"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_rest.xml.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_rest.xml"
+    },
+    {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/xml/network_security_config.xml"
     },
@@ -88,6 +104,14 @@
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/menu/recycler_menu.xml"
     },
     {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/font_nanum_square_round.xml.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/font/nanum_square_round.xml"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_mart.xml.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_mart.xml"
+    },
+    {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -96,11 +120,11 @@
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_info.xml.flat",
-        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_info.xml"
-    },
-    {
         "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Volumes/STUDY/Github/2020_Narsha_Project/app/build/intermediates/res/merged/debug/layout_fragment_info.xml.flat",
+        "source": "/Volumes/STUDY/Github/2020_Narsha_Project/app/src/main/res/layout/fragment_info.xml"
     }
 ]
