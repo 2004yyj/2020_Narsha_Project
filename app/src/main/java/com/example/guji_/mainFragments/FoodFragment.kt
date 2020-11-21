@@ -41,6 +41,8 @@ class FoodFragment : Fragment() {
 
                     list.addAll(response.body()!!)
 
+                    println(list.toString())
+
                     recyclerView = view.findViewById(R.id.food_recycler_View)
                     recyclerAdapter = RecyclerAdapter(context, list)
                     recyclerView.layoutManager = LinearLayoutManager(context)
