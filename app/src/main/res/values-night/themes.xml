@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="nanum_square_b">
+        <item name="android:fontFamily">@font/nanum_square_round_b</item>
+    </style>
+
+    <style name="nanum_square_regular">
+        <item name="android:fontFamily">@font/nanum_square_round_regular</item>
+    </style>
 </resources>

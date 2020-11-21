@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Guji_말하자면</string>
+    <string name="sharp">%s</string>
+    <string name="placeimage">placeImage</string>
 </resources>
