@@ -4,14 +4,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.guji.mainFragments.CafeFragment
-import com.example.guji.mainFragments.FoodFragment
 import com.example.guji.mainFragments.InfoFragment
-import com.example.guji.mainFragments.MarketFragment
+import com.example.guji.mainFragments.MartFragment
+import com.example.guji.mainFragments.RestFragment
 
 class ViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
-    private val foodFragment = FoodFragment()
-    private val marketFragment = MarketFragment()
+    private val foodFragment = RestFragment()
+    private val marketFragment = MartFragment()
     private val cafeFragment = CafeFragment()
     private val infoFragment = InfoFragment()
 
