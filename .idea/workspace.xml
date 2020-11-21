@@ -30,24 +30,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fbb3ea5-e721-4f59-8c67-d9baf204f941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/viewPager/ViewPagerAdapter.kt" afterDir="false" />
+    <list default="true" id="8fbb3ea5-e721-4f59-8c67-d9baf204f941" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/CafeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/CafeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/FoodFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/FoodFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/InfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/InfoFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/MarketFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/mainActivity/MarketFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/Model.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/recyclerView/RecyclerAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/RecyclerClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/RecyclerService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/guji_/retroFit/RecyclerService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cafe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cafe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_food.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_food.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_market.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +91,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.guji_" />
       <recent name="com.example.guji_.recyclerView" />
       <recent name="com.example.guji_.retroFit" />
       <recent name="com.example.guji_.mainActivity" />
@@ -186,6 +171,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603181548635</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1605887680232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605887680233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +191,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="25" width="1792" height="1120" key="#PSD" timestamp="1605885356688">
@@ -219,10 +216,10 @@
     </state>
     <state x="634" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605789305798" />
     <state x="634" y="312" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605887163477" />
-    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1605887202937">
+    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1605887610836">
       <screen x="0" y="25" width="1792" height="1035" />
     </state>
-    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605887202937" />
+    <state x="660" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1605887610836" />
     <state x="99" y="125" width="1592" height="835" key="AVDManager" timestamp="1605830454941">
       <screen x="0" y="25" width="1792" height="1035" />
     </state>
