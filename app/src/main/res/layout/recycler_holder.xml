@@ -1,42 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="20dp">
-
-    <LinearLayout
-        android:id="@+id/main_linear"
-        android:layout_gravity="center_vertical|start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="제목"
-            android:textSize="25sp"
-            android:layout_marginBottom="5dp"/>
-
-        <TextView
-            android:id="@+id/category"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="카테고리"
-            android:textSize="20sp"/>
-    </LinearLayout>
+    android:layout_height="wrap_content">
 
     <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentEnd="true"
-        android:layout_gravity="center_vertical|end"
-        android:layout_marginStart="150dp"
-        android:layout_toEndOf="@id/main_linear"
-        android:backgroundTint="#9C9C9C"
-        android:text="클릭" />
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/white" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="20dp"
+        android:id="@+id/main_linear"
+        android:gravity="center_vertical|start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_marginEnd="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/placeimage" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/nanum_square_round_b"
+                android:id="@+id/name"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제목"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:fontFamily="@font/nanum_square_round_regular"
+                android:id="@+id/category"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카테고리"
+                android:textSize="15sp"/>
+
+
+            <TextView
+                android:fontFamily="@font/nanum_square_round_regular"
+                android:id="@+id/address"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
