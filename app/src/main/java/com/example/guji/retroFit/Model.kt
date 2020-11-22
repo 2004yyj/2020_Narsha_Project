@@ -24,16 +24,16 @@ data class Model(
     var image_url: String?,
 
     @SerializedName("coord_x")          // 위치 x좌포
-    var coord_x: Double?,
+    var coord_x: Double,
 
     @SerializedName("coord_y")          // 위치 y좌표
-    var coord_y: Double?,
+    var coord_y: Double,
 
     @SerializedName("longitude")        // 위치 경도
-    var longitude: Double?,
+    var longitude: Double,
 
     @SerializedName("latitude")         // 위치 위도
-    var latitude: Double?,
+    var latitude: Double,
 ) : Parcelable {
     
     constructor(parcel: Parcel) : this(
@@ -57,10 +57,10 @@ data class Model(
         parcel.writeString(sub_category)
         parcel.writeString(address)
         image_url?.let { parcel.writeString(it) }
-        coord_x?.let { parcel.writeDouble(it) }
-        coord_y?.let { parcel.writeDouble(it) }
-        longitude?.let { parcel.writeDouble(it) }
-        latitude?.let { parcel.writeDouble(it) }
+        coord_x.let { parcel.writeDouble(it) }
+        coord_y.let { parcel.writeDouble(it) }
+        longitude.let { parcel.writeDouble(it) }
+        latitude.let { parcel.writeDouble(it) }
 
     }
 
