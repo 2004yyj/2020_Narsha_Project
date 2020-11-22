@@ -1,5 +1,6 @@
 package com.example.guji.mainFragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.guji.PlaceActivity
 import com.example.guji.R
 import com.example.guji.recyclerView.RecyclerAdapter
 import com.example.guji.retroFit.Model
@@ -37,11 +39,19 @@ class MartFragment : Fragment() {
                 if (response.isSuccessful) {
 
                     list.addAll(response.body()!!)
-
                     recyclerView = view.findViewById(R.id.mart_recycler_View)
                     recyclerAdapter = context?.let { RecyclerAdapter(it, list) }!!
                     recyclerView.layoutManager = LinearLayoutManager(context)
                     recyclerView.adapter = recyclerAdapter
+
+                    recyclerAdapter.setOnItemClickListener(object : RecyclerAdapter.OnItemClickListener {
+                        override fun onItemClick(pos: Int) {
+                            val intent = Intent(context, PlaceActivity::class.java)
+                            intent.putExtra("list", list[pos])
+                            startActivity(intent)
+                        }
+
+                    })
                 }
             }
 

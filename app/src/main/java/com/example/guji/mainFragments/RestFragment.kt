@@ -1,5 +1,6 @@
 package com.example.guji.mainFragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -42,11 +43,19 @@ class RestFragment : Fragment() {
                 if (response.isSuccessful) {
 
                     list.addAll(response.body()!!)
-
                     recyclerView = view.findViewById(R.id.rest_recycler_View)
                     recyclerAdapter = context?.let { RecyclerAdapter(it, list) }!!
                     recyclerView.layoutManager = LinearLayoutManager(context)
                     recyclerView.adapter = recyclerAdapter
+
+                    recyclerAdapter.setOnItemClickListener(object : RecyclerAdapter.OnItemClickListener {
+                        override fun onItemClick(pos: Int) {
+                            val intent = Intent(context, PlaceActivity::class.java)
+                            intent.putExtra("list", list[pos])
+                            startActivity(intent)
+                        }
+
+                    })
                 }
             }
 
