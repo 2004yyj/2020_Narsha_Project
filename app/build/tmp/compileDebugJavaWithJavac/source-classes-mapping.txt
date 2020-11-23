@@ -1,2 +1,0 @@
-com/example/guji/BuildConfig.java
- com.example.guji.BuildConfig
