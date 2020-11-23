@@ -2,6 +2,7 @@ package com.example.guji
 
 import android.content.Intent
 import android.graphics.drawable.Drawable
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
@@ -34,10 +35,27 @@ class PlaceActivity : AppCompatActivity(), OnMapReadyCallback {
         latitude = model?.latitude!!
         longtitude = model.longitude
 
+        val name = model.name
+
         setSupportActionBar(place_toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
         place_toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_24)
+
+        openNaverMap.setOnClickListener {
+            try {
+                val url = "nmap://place?lat=$latitude&lng=$longtitude&name=$name&appname=com.example.guji"
+                val intent = Intent(Intent.ACTION_VIEW)
+                intent.data = Uri.parse(url)
+                startActivity(intent)
+            }
+            catch (e : Exception) {
+                val url = "market://details?id=com.nhn.android.nmap"
+                val intent = Intent(Intent.ACTION_VIEW)
+                intent.data = Uri.parse(url)
+                startActivity(intent)
+            }
+        }
 
         place_toolbar.setNavigationOnClickListener {
             finish()
