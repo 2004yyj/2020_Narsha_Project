@@ -7,13 +7,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="65dp"
         android:layout_marginBottom="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:text="카페"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nanum_square_round_b"/>
