@@ -34,23 +34,12 @@ class MainActivity : FragmentActivity(), BottomNavigationView.OnNavigationItemSe
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
-            R.id.food -> {
-                pager.currentItem = 0
-                return true
-            }
-            R.id.cafe -> {
-                pager.currentItem = 1
-                return true
-            }
-            R.id.market -> {
-                pager.currentItem = 2
-                return true
-            }
-            R.id.info -> {
-                pager.currentItem = 3
-                return true
-            }
+        pager.currentItem = when(item.itemId) {
+            R.id.food -> 0
+            R.id.cafe -> 1
+            R.id.market -> 2
+            R.id.info -> 3
+            else -> 0
         }
         return false
     }
