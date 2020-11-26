@@ -5,34 +5,34 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
 data class Model(
-    @SerializedName("id")               // 고유 아이디
+//    @SerializedName("id")               // 고유 아이디
     var id: Int,
 
-    @SerializedName("name")             // 위치 이름
+//    @SerializedName("name")             // 위치 이름
     var name: String,
 
-    @SerializedName("category")         // 위치 카테고리
+//    @SerializedName("category")         // 위치 카테고리
     var category: String,
 
-    @SerializedName("sub_category")     // 위치 카테고리(한국어)
+//    @SerializedName("sub_category")     // 위치 카테고리(한국어)
     var sub_category: String,
 
-    @SerializedName("address")          // 위치 주소
+//    @SerializedName("address")          // 위치 주소
     var address: String,
 
-    @SerializedName("image_url")        // 위치 이미지 URL
+//    @SerializedName("image_url")        // 위치 이미지 URL
     var image_url: String?,
 
-    @SerializedName("coord_x")          // 위치 x좌포
+//    @SerializedName("coord_x")          // 위치 x좌포
     var coord_x: Double,
 
-    @SerializedName("coord_y")          // 위치 y좌표
+//    @SerializedName("coord_y")          // 위치 y좌표
     var coord_y: Double,
 
-    @SerializedName("longitude")        // 위치 경도
+//    @SerializedName("longitude")        // 위치 경도
     var longitude: Double,
 
-    @SerializedName("latitude")         // 위치 위도
+//    @SerializedName("latitude")         // 위치 위도
     var latitude: Double,
 ) : Parcelable {
     
